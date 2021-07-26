@@ -38,22 +38,22 @@ class TimerCubit extends Cubit<TimerStates> {
   }
 
   bool visibleColor = true;
-  List<Color> colors = [
-    Color(0xFF917B9E).withOpacity(0.1),
-    Color(0xFF917B9E).withOpacity(0.4),
-    Color(0xFF917B9E).withOpacity(0.6),
-    Color(0xFF917B9E).withOpacity(0.9),
-
-    Color(0xFFB995AD).withOpacity(0.1),
-    Color(0xFFB995AD).withOpacity(0.6),
-    Color(0xFFB995AD).withOpacity(0.9),
-
-    Color(0xFF73B6C4).withOpacity(0.1),
-    Color(0xFF73B6C4).withOpacity(0.5),
-    Color(0xFF73B6C4).withOpacity(0.8)
-
-  ];
-  int i = 0 ;
+  // List<Color> colors = [
+  //   Color(0xFF917B9E).withOpacity(0.1),
+  //   Color(0xFF917B9E).withOpacity(0.4),
+  //   Color(0xFF917B9E).withOpacity(0.6),
+  //   Color(0xFF917B9E).withOpacity(0.9),
+  //
+  //   Color(0xFFB995AD).withOpacity(0.1),
+  //   Color(0xFFB995AD).withOpacity(0.6),
+  //   Color(0xFFB995AD).withOpacity(0.9),
+  //
+  //   Color(0xFF73B6C4).withOpacity(0.1),
+  //   Color(0xFF73B6C4).withOpacity(0.5),
+  //   Color(0xFF73B6C4).withOpacity(0.8)
+  //
+  // ];
+  // int i = 0 ;
 
   void changeAppColor() {
     // for (int i = 0; i <= colors.length; i++) {
